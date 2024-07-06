@@ -1,0 +1,2 @@
+class AnswerTable < ApplicationRecord
+end
