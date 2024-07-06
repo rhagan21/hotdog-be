@@ -1,6 +1,6 @@
 # Hotdog question app
 
-This is a sample app using Ruby on Rails for the backend and Postgres for the database.
+This is a sample app that receives answers to a question and stores them, and can return back the lastest 100 answers. It was built using Ruby on Rails for the backend and Postgres for the database.
 
 ## Todos
 - [x] Create and seed postgres database
