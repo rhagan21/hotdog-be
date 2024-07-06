@@ -5,7 +5,7 @@ class AnswerTable < ApplicationRecord
   
     private
     def entry_not_in_exclusion_list
-        exclusion_list = ['yes', 'no', 'maybe', 'i don\'t know', 'i dont know', 'that\'s ok', 'thats ok']
+        exclusion_list = ['yes', 'no', 'idk', 'i don\'t know', 'i dont know', 'that\'s ok', 'thats ok']
         if exclusion_list.map(&:downcase).include?(entry.to_s.downcase)
             errors.add(:entry, "'#{entry}' is not accepted.")
         end
