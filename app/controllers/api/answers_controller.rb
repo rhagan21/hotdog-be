@@ -1,6 +1,6 @@
 class Api::AnswersController < ApplicationController
   def index
-    answers = AnswerTable.all
+    answers = AnswerTable.limit(100).order('id desc')
     render json: answers, status: 200
   end
 
