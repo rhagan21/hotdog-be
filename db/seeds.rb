@@ -10,6 +10,6 @@
 
 AnswerTable.create([
     {
-        entry: "lskjdf"
+        entry: "Hmmmm I'll have to think about it"
     }
 ])

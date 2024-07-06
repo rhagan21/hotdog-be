@@ -140,6 +140,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.8.0)
     rack (3.1.6)
+    rack-cors (2.0.2)
+      rack (>= 2.0.0)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -234,7 +236,7 @@ PLATFORMS
   arm-linux
   arm64-darwin
   x86-linux
-  x86_64-darwin
+  x86_64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
@@ -243,6 +245,7 @@ DEPENDENCIES
   debug
   pg (~> 1.1)
   puma (>= 5.0)
+  rack-cors
   rails (~> 7.2.0.beta2)
   rubocop-rails-omakase
   tzinfo-data
