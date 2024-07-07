@@ -1,0 +1,22 @@
+current directory: /Users/rachel/Projects/hotdog-be-2/hotdog-api/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.18.3/ext/bootsnap
+/Users/rachel/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/rachel/Projects/hotdog-be-2/hotdog-api/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240706-14626-nuvdga sitelibdir\=./.gem.20240706-14626-nuvdga clean
+
+current directory: /Users/rachel/Projects/hotdog-be-2/hotdog-api/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240706-14626-nuvdga sitelibdir\=./.gem.20240706-14626-nuvdga
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/rachel/Projects/hotdog-be-2/hotdog-api/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240706-14626-nuvdga sitelibdir\=./.gem.20240706-14626-nuvdga install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240706-14626-nuvdga/bootsnap
+
+current directory: /Users/rachel/Projects/hotdog-be-2/hotdog-api/vendor/bundle/ruby/3.3.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240706-14626-nuvdga sitelibdir\=./.gem.20240706-14626-nuvdga clean
